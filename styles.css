@@ -1,3 +1,8 @@
-* {
-  color:red;
+html {
+  background: url("./images/bubble-small.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
+
+
+
+
