@@ -7,10 +7,12 @@ body, html {
   padding: 0; 
   height: 100%;
   color:white;
+  filter:hue-rotate(90deg);
 }
 
 body {
   background: url("./images/bubble-small.jpg") no-repeat bottom center fixed;
+  filter:hue-rotate(90deg);
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
 }
@@ -39,6 +41,7 @@ h1{
 
 .blurred{
   /* filter: blur(5px); */
+  filter:hue-rotate(90deg);
   padding: 1em;
 }
 
@@ -52,7 +55,6 @@ h1{
 	height: 100%;
 	text-align: center;
   background: #202020d3;
-  /* background: #eb0808d3; */
   border-radius: 4px;
   overflow: hidden;
 }
@@ -64,14 +66,11 @@ h1{
   padding: 1.5rem 0;
 }
 
-.top{
-  border: 2px inset #545454;
-}
-
 .line{
   width: 0px;
   height: 1.5em;
-  margin: auto;;
+  margin: auto;
+  border: 1.5px solid #545454;
 }
 
 .logo-container{
@@ -80,7 +79,7 @@ h1{
   width: 3.75rem;
   height: 3.75rem;
   line-height: 4.75rem;
-  border: 2px inset #a7a7a7;
+  border: 2px solid #545454;
   border-radius: 100%;
   margin: auto;
 }
@@ -93,8 +92,8 @@ h1{
 }
 
 .content{
-    border-top:2px inset #a7a7a7;
-    border-bottom:2px inset #a7a7a7;
+    border-top:2px solid #545454;
+    border-bottom:2px solid #545454;
     max-width: 90%;
     margin: auto;
 }
@@ -153,7 +152,7 @@ h1{
 }
 
 .bottom-nav li{
-  border:2px inset #a7a7a7;
+  border:2px solid #545454;
   border-radius: 4px;
   margin: auto; 
   padding: 0;

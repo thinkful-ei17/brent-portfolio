@@ -7,21 +7,22 @@ const modalCreator = className => (
         <img class="about-image" src="./images/about-photo.jpg">
       </span>
       <p>
-         A touring musician turned full-stack
-            web developer from Gainesville, FL.
-             A touring musician turned full-stack
-            web developer from Gainesville, FL.
-             A touring musician turned full-stack
-            web developer from Gainesville, FL.
-             A touring musician turned full-stack
-            web developer from Gainesville, FL.
-             A touring musician turned full-stack
-            web developer from Gainesville, FL.
-             A touring musician turned full-stack
-            web developer from Gainesville, FL.
-             A touring musician turned full-stack
-            web developer from Gainesville, FL. A touring musician turned full-stack
-            web developer from Gainesville, FL.
+        Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+        Lorem ipsum
+        Lorem ipsum
+        Lorem ipsum
+        Lorem ipsum
+        Lorem ipsum
+        Lorem ipsum
+        Lorem ipsum
+
+        Lorem ipsum
+
+        Lorem ipsum
+
+        Lorem ipsum
+
+        Lorem ipsum
       </p>
     </article>
    </div>
@@ -63,3 +64,7 @@ $(() => {
     handleClicks(event.target.className);
   });
 });
+
+
+// I am a web developer and recent graduate of the Front End Web Development Career Path bootcamp at Thinkful.I love coding because solving problems and seeing ideas come to life on the page is supremely satisfying.I geek out on higher order functions, finding and learning awesome libraries or frameworks, and getting front and back ends to play nicely.
+// When I'm not coding, I'm often found on Skype working with clients, curled up in a cozy chair reading, hiking in a canyon, or upside down doing a headstand.I am lifelong learner and my current learning projects(beyond code!) include piano and writing my first book.
