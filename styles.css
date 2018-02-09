@@ -1,8 +1,88 @@
-html {
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Abril Fatface', serif; */
+body, html {
+  margin: 0; 
+  padding: 0; 
+  height: 100%;
+  list-style: none;
+}
+body {
   background: url("./images/bubble-small.jpg") no-repeat center center fixed;
   background-size: cover;
+  font-family: 'Open Sans', sans-serif
 }
 
+h1{
+  text-align:center;
+  font-family: 'Abril Fatface', serif;
+  font-size: 1.75rem;
+  line-height: 1.4;
+}
 
+.inner {
+  font-family: 'Alfa Slab One';
+  color:white;
+  font-size:12px;
+  padding: 2.5rem 0;
+}
 
+.line{
+  width: 0px;
+  height: 50px;
+  margin: auto;
+}
 
+.logo-container{
+  background: url("./images/3-dot.png") no-repeat center;
+  background-size: 3em;
+  width: 4.75rem;
+  height: 4.75rem;
+  line-height: 4.75rem;
+  border:1px solid white;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.tri-dot{
+  height:4em;
+  width:4em;
+
+}
+
+.content{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: white;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    max-width: 90%;
+    margin: auto;
+}
+
+#wrapper{
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  height: 100%;
+}
+
+#header{
+ padding: 1.5rem 0;
+ text-align: center;
+ margin-top: 3em;
+}
+
+.inner p{
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  line-height: 1.875
+
+}
+
+.bottom-nav a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
