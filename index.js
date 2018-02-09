@@ -1,11 +1,32 @@
-const modalCreator = className =>
-  (
+const modalCreator = className => (
+  `  
+   <div class=main-modal>
+    <article id=${className}>
+      <h2>${className}</h2>
+      <span>
+        <img class="about-image" src="./images/about-photo.jpg">
+      </span>
+      <p>
+         A touring musician turned full-stack
+            web developer from Gainesville, FL.
+             A touring musician turned full-stack
+            web developer from Gainesville, FL.
+             A touring musician turned full-stack
+            web developer from Gainesville, FL.
+             A touring musician turned full-stack
+            web developer from Gainesville, FL.
+             A touring musician turned full-stack
+            web developer from Gainesville, FL.
+             A touring musician turned full-stack
+            web developer from Gainesville, FL.
+             A touring musician turned full-stack
+            web developer from Gainesville, FL. A touring musician turned full-stack
+            web developer from Gainesville, FL.
+      </p>
+    </article>
+   </div>
     `
-    <div class=${className}-modal>
-
-    <div>
-    `
-  );
+);
 
 const toggleBlur = () => {
   $('body').toggleClass('blurred');
@@ -15,13 +36,13 @@ const toggleBlur = () => {
 const handleClicks = (className) => {
   switch (className) {
   case 'about':
-    $('#header').html(`${modalCreator(className)}`);
+    $('#wrapper').html(`${modalCreator(className)}`);
     break;
   case 'portfolio':
-    $('#header').html(`${modalCreator(className)}`);
+    $('#wrapper').html(`${modalCreator(className)}`);
     break;
   case 'contact':
-    $('#header').html(`${modalCreator(className)}`);
+    $('#wrapper').html(`${modalCreator(className)}`);
     break;
   default: console.log('something went wrong :(');
   }
