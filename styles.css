@@ -1,5 +1,7 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Abril Fatface', serif; */
+
+/* #232B2B */
 body, html {
   margin: 0; 
   padding: 0; 
@@ -32,10 +34,14 @@ h1{
   padding: 2.5rem 0;
 }
 
+.top{
+  border: 2px inset #545454;
+}
+
 .line{
   width: 0px;
-  height: 50px;
-  margin: auto;
+  height: 1.5em;
+  margin: auto;;
 }
 
 .logo-container{
@@ -44,7 +50,7 @@ h1{
   width: 4.75rem;
   height: 4.75rem;
   line-height: 4.75rem;
-  border:1px solid white;
+  border: 2px inset #a7a7a7;
   border-radius: 100%;
   margin: auto;
 }
@@ -62,13 +68,8 @@ h1{
 }
 
 .content{
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-color: white;
-    border-top-color: white;
-    border-bottom-color: white;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
+    border-top:2px inset #a7a7a7;
+    border-bottom:2px inset #a7a7a7;
     max-width: 90%;
     margin: auto;
 }
@@ -109,7 +110,7 @@ h1{
 }
 
 .bottom-nav li{
-  border:1px solid white;
+  border:2px inset #a7a7a7;
   border-radius: 5%;
   margin: auto; 
   padding: 0;
