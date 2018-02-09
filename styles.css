@@ -40,6 +40,14 @@ h1{
    text-align: center;
  }
 
+ .contact-links{
+   margin: auto;
+ }
+
+.contact-links li{
+  display: inline-block;
+  
+}
 
 .hidden{
   display: none !important;
@@ -132,6 +140,10 @@ h1{
 
 #contact{
 
+}
+
+.contact-links img{
+  width: 25px;
 }
 
 .inner p{
