@@ -1,21 +1,33 @@
+const modalCreator = className =>
+  (
+    `
+    <div class=${className}-modal>
+
+    <div>
+    `
+  );
+
+const toggleBlur = () => {
+  $('body').toggleClass('blurred');
+};
+
+
 const handleClicks = (className) => {
   switch (className) {
   case 'about':
-    $(`.${className}`).append();
+    $('#header').html(`${modalCreator(className)}`);
     break;
   case 'portfolio':
-    $(`.${className}`).append();
+    $('#header').html(`${modalCreator(className)}`);
     break;
   case 'contact':
-    $(`.${className}`).append();
+    $('#header').html(`${modalCreator(className)}`);
     break;
   default: console.log('something went wrong :(');
   }
+  toggleBlur();
 };
 
-const releaseTheModals = () => {
-
-}
 
 $(() => {
   $('.about').click((event) => {
