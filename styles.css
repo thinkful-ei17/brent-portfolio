@@ -4,12 +4,18 @@ body, html {
   margin: 0; 
   padding: 0; 
   height: 100%;
-  list-style: none;
 }
+
 body {
   background: url("./images/bubble-small.jpg") no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 h1{
@@ -49,6 +55,12 @@ h1{
 
 }
 
+.bottom-nav{
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+}
+
 .content{
     border-top-style: solid;
     border-bottom-style: solid;
@@ -77,12 +89,29 @@ h1{
 .inner p{
   letter-spacing: 0.2rem;
   font-size: 0.8rem;
-  line-height: 1.875
+  line-height: 1.875;
 
 }
 
 .bottom-nav a{
-  text-align: center;
   text-decoration: none;
   color: white;
+  padding: 0 1.25rem 0 1.45rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  border-bottom: 0;
+  height: 3rem;
+  line-height: 3rem;
+  min-width: 0;
+  width: 100%
+  
+}
+
+.bottom-nav li{
+  border:1px solid white;
+  border-radius: 5%;
+  margin: auto; 
+  padding: 0;
+  
 }
